@@ -1,0 +1,258 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Header styles */
+.header {
+    background-image: url('people1.png'); /* Replace 'header-background.jpg' with your image path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #e70a0a;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #a915ae;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ff6eff; /* Change color on hover to neon pink */
+}
+
+.hero {
+    padding: 100px 0;
+    background-color: #ff6eff; /* neon pink */
+    color: #fff;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8800ff; /* magenta */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition effect */
+}
+
+.btn:hover {
+    background-color: #ff6eff; /* Change background color on hover to neon pink */
+    color: #fff; /* Maintain text color on hover */
+}
+
+.about, .services, .contact {
+    padding: 50px 0;
+}
+
+/* About section styles */
+.about {
+    background-image: url('workplace.jpg'); /* Replace 'workplace-background.jpg' with your workplace image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image {
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Make the image circular */
+}
+
+.about-text {
+    text-align: left; /* Align text to the left */
+    color: rgb(150, 21, 21);
+}
+.about-text-background {
+    background-color: rgba(255, 255, 255, 0.7); /* Background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.services {
+    background-color: #8800ff; /* magenta */
+    color: #fff;
+}
+
+.contact {
+    background-color: #ff6eff; /* neon pink */
+    color: #fff;
+}
+
+footer {
+    background-color: #8800ff; /* magenta */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Services section styles */
+.service-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service {
+    width: calc(100% / 3); /* Adjust as needed for responsiveness */
+    padding: 20px;
+    text-align: center;
+    background-color: #8800ff; /* magenta */
+    color: #fff;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+/* Contact section styles */
+.contact {
+    background-color: #ff6eff; /* neon pink */
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.social-media {
+    text-align: right;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.social-icons li:first-child {
+    margin-left: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.social-icons a:hover {
+    color: #8800ff; /* magenta */
+}
+
+.contact-form {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8800ff; /* magenta */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff6eff; /* neon pink */
+}
+
+
+
